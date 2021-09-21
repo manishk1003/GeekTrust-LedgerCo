@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ledger": {
+      "commandName": "Project",
+      "commandLineArgs": "Input_2.txt"
+    }
+  }
+}
