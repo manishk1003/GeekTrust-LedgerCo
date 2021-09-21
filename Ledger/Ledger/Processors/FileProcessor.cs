@@ -50,7 +50,7 @@ namespace Ledger.Processors
         {
             var basePath = AppDomain.CurrentDomain.BaseDirectory;
             var fullFilePath = Path.Combine(basePath, Constants.InputSourceFolder, _filePath);
-            Console.WriteLine(fullFilePath);
+           
             if (!File.Exists(fullFilePath))
             {
                 throw new FileNotFoundException(ErrorMessages.FileNotFound);
