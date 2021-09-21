@@ -29,8 +29,11 @@ To generate coverage report in html format after generating code coverage report
 ```
 reportgenerator -reports:"{PathToCodeBase}\Ledger\Ledger.Test\TestResults\{GUID}\coverage.cobertura.xml" -targetdir:"{OutputDirectory}" -reporttypes:Html
 ```
->PathToCodeBase : Folder where code base is located
->GUID: Folder name generated after running code coverage command
->OutputDirectory: Folder where you need html reports and supporting files to be placed
+*PathToCodeBase : Folder where code base is located.*
+
+*GUID: Folder name generated after running code coverage command.*
+
+*OutputDirectory: Folder where you need html reports and supporting files to be placed.*
+
 
 
