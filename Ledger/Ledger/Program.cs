@@ -27,7 +27,6 @@ namespace Ledger
             {
                 Utils.ConsoleLogError(ex.Message);
             }
-            Console.ReadLine();
         }
 
         private static async Task ProcessCommands(string[] args)

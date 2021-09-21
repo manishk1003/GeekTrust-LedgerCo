@@ -22,11 +22,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Update="DataSource\Input_1.txt">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		<None Update="DataSource\Input1.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-		<None Update="DataSource\Input_2.txt">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		<None Update="DataSource\Input2.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
 </Project>
