@@ -9,8 +9,8 @@ dotnet build -o geektrust
 To get the output you can use below commands
 
 ```
-dotnet geektrust/geektrust.dll Input_1.txt
-dotnet geektrust/geektrust.dll Input_2.txt
+dotnet geektrust/geektrust.dll Input1.txt
+dotnet geektrust/geektrust.dll Input2.txt
 ```
 
 To execute test cases execute below command
